@@ -15,4 +15,6 @@ Contoh penerapan inverse kinematics:
 - Spider Bot
 - dan lain-lain.
 
-Untuk membuat simulasi inverse kinematics, kita bisa menggunakan library [Pinocchio]()
+Untuk membuat simulasi inverse kinematics, kita bisa menggunakan library [Pinocchio](https://stack-of-tasks.github.io/pinocchio/)
+
+URDF: https://github.com/mbsaloka/robot-model
