@@ -5,13 +5,10 @@ from pinocchio.visualize import MeshcatVisualizer
 import meshcat.geometry as g
 from pathlib import Path
 
-# ============================
-#   CONFIGURATION
-# ============================
+
 simulation = True
 APPROACH_HEIGHT = 0.1
 
-# --- Load robot ---
 def find_urdf(model_dir: Path):
     if not model_dir.exists():
         raise FileNotFoundError(f"Folder tidak ditemukan: {model_dir}")
